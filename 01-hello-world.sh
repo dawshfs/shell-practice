@@ -1,2 +1,8 @@
 #!/bin/bash
-echo "ajay"
+
+
+name1=ajay
+name2=vijay
+
+echo "$name1: hi vijay, how are you"
+echo" $name2: hello ajay, iam good"
