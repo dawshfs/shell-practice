@@ -9,7 +9,7 @@ N="\e[0m"
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]; then
-    echo -e "%R ERROR $N :: Please run this script with root privelege"
+    echo -e "%R ERROR:: Please run this script with root privelege $N"
     exit 1 # failure is other than 0
 fi
 
